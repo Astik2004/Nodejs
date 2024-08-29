@@ -3,7 +3,7 @@ const app=express();
 app.use(express.static('dist'));
 const port=process.env.PORT || 4000
 
-/*app.get("/",(req,res)=>{
+/* app.get("/",(req,res)=>{
     res.send("Server is ready ");
 })*/
 app.get("/api/jokes",(req,res)=>{
